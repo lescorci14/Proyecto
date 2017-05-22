@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_agregar_personaje"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cuc.elegir.Principal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/añade_un_personaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:gravity="top|bottom"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmbGenero"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/list_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/cmbGenero"
+            android:layout_alignParentStart="true"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmbListImg"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/genero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:gravity="top|bottom"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/txtNombreAgregar"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="@string/agregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmdAgregar"
+            android:textSize="18sp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="52dp"
+            android:layout_below="@+id/cmbListImg"
+            android:layout_alignParentStart="true"
+            android:onClick="agregarP" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtNombreAgregar"
+            android:hint="@string/nombreImagen"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

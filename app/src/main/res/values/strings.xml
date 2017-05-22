@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Elegir</string>
+    <string name="jugar">Jugar</string>
+    <string name="admin">Admin</string>
+    <string name="añade_un_personaje">Añade un personaje</string>
+    <string name="nombre">Nombre De Usuario</string>
+    <string name="genero">Genero</string>
+    <string name="orientacion">Orientación</string>
+    <string name="nombreImagen">Nombre de la imagen</string>
+    <string name="listo">Listo</string>
+    <string name="salir">Salir</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="registrate">Registrate</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="agregar">Agregar</string>
+    <string name="borrar">Borrar</string>
+    <string name="menu">Menú</string>
+    <string name="puntaje">Puntaje</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscar_id">Buscar por ID</string>
+    <string name="celular">Celular</string>
+    <string name="edad">Edad</string>
+    <string name="terminos_condiciones">Terminos y condiciones</string>
+    <string name="acepto_terminos_condiciones">Acepto los terminos y condiciones</string>
+    <string name="registrar">Registrar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="nosotros">Sobre nosotros</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis purus urna. Pellentesque a convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc in tellus non metus aliquam aliquet eget nec turpis. Maecenas aliquet volutpat euismod. Cras in ex ac erat sodales porta. Nulla facilisi. Ut venenatis at diam et iaculis.</string>
+    <string name="bryan">Bryan Cuadrado</string>
+    <string name="leiner">Leiner Escorcia</string>
+    <string name="tipo">Tipo</string>
+    <string name="confirmar_contraseña">Confirmar Contraseña</string>
+    <string name="error_name">Digite su Nombre de Usuario</string>
+    <string name="error_img">Digite el nombre de la imagen</string>
+    <string name="error_contra">Digite su Contraseña</string>
+    <string name="error_confirmar">Por favor! Confirme su Contraseña</string>
+    <string name="error_coincidir">Su Contraseña no coincide</string>
+    <string name="error_celular">Digite su Celular</string>
+    <string name="error_edad">Digite su Edad</string>
+    <string name="error_menor">Usted es demasiado joven</string>
+    <string name="error_acepto">Es necesario aceptar los terminos</string>
+    <string name="guardado">Usuario Guardado Exitosamente!</string>
+    <string name="guardado2">Personaje Guardado Exitosamente!</string>
+    <string name="existir">Ya está siendo usado ese nombre de usuario</string>
+    <string name="admin_pass">1234</string>
+    <string name="error_usurio">El usuario no existe</string>
+    <string name="coincidir_login">El usuario y contraseña no coinciden</string>
+    <string name="agregar_personaje">Agregar Personaje</string>
+    <string name="consultas">Consultas</string>
+    <string name="caso">Me caso</string>
+    <string name="mato">Lo mato</string>
+    <string name="cojo">Lo cojo</string>
+    <string name="list_img">Lista de Img:</string>
+    <string name="davidB">David Beckham</string>
+    <string name="emma">Emma Watson</string>
+    <string name="hugh">Hugh Jackman</string>
+    <string name="joe">Joe Manganiello</string>
+    <string name="mark">Mark Zuckerberg</string>
+    <string name="megan">Megan Fox</string>
+    <string name="rihana">Rihana</string>
+    <string name="scarlett">Scarlett Johanson</string>
+    <string name="sofia">Sofia Vergara</string>
+    <string-array name="inicio">
+        <item>@string/jugar</item>
+        <item>@string/admin</item>
+    </string-array>
+    <string-array name="opciones_admin">
+        <item>@string/agregar_personaje</item>
+        <item>@string/consultas</item>
+    </string-array>
+    <string-array name="generos">
+        <item>@string/masculino</item>
+        <item>@string/femenino</item>
+    </string-array>
+    <string-array name="lista">
+        <item>@string/davidB</item>
+        <item>@string/emma</item>
+        <item>@string/hugh</item>
+        <item>@string/joe</item>
+        <item>@string/mark</item>
+        <item>@string/megan</item>
+        <item>@string/rihana</item>
+        <item>@string/scarlett</item>
+        <item>@string/sofia</item>
+    </string-array>
+</resources>

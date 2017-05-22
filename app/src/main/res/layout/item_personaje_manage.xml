@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="110sp"
+            android:layout_height="140sp"
+            app:srcCompat="@drawable/emmawatson"
+            android:layout_marginTop="23dp"
+            android:id="@+id/imageView"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="200sp"
+            android:layout_height="40sp"
+            android:id="@+id/txtNombreManage"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="22dp"
+            android:layout_marginEnd="22dp"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="200sp"
+            android:id="@+id/txtGeneroManage"
+            android:layout_height="30sp"
+            android:gravity="center"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/txtNombreManage"
+            android:layout_alignLeft="@+id/txtNombreManage"
+            android:layout_alignStart="@+id/txtNombreManage" />
+
+    </RelativeLayout>
+</LinearLayout>

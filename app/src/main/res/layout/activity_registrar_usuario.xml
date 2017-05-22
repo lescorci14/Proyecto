@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registrar_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cuc.elegir.Principal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:text="@string/registrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:gravity="center"
+                android:textSize="28sp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtNombreUsuario"
+                android:gravity="top|bottom|center_vertical"
+                android:hint="@string/nombre" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/txtContraseñaUsuario"
+                android:hint="@string/contraseña"
+                android:layout_marginTop="2sp"
+                android:fontFamily="sans-serif" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/txtConfirmarContraseña"
+                android:hint="@string/confirmar_contraseña"
+                android:layout_marginTop="2sp"
+                android:fontFamily="sans-serif" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/txtCelularUsuario"
+                android:layout_marginTop="4sp"
+                android:hint="@string/celular" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/txtEdadUsuario"
+                android:singleLine="false"
+                android:selectAllOnFocus="false"
+                android:hint="@string/edad"
+                android:layout_marginTop="2sp" />
+
+            <TextView
+                android:text="@string/genero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:textSize="18sp"
+                android:layout_marginTop="4sp"
+                android:textStyle="normal|bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2sp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:text="@string/masculino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r1GeneroUsuario"
+                    android:layout_weight="1"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:text="@string/femenino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r2GeneroUsuario"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+            <TextView
+                android:text="@string/terminos_condiciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTerminosYCondiciones"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textAlignment="textEnd"
+                android:onClick="terminos"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textAllCaps="false" />
+
+            <CheckBox
+                android:text="@string/acepto_terminos_condiciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBoxUsuarios" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:text="@string/registrar"
+                    android:layout_width="221dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnRegistrarUsuario"
+                    android:textSize="20sp"
+                    android:layout_marginTop="2sp"
+                    android:layout_marginRight="4sp"
+                    android:onClick="guardar"
+                    android:textColor="@android:color/background_light"
+                    android:background="@android:color/black" />
+
+                <Button
+                    android:text="@string/limpiar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnLimpiarUsuario"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:layout_marginTop="2sp"
+                    android:textColor="@android:color/background_light"
+                    android:background="@android:color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
