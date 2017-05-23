@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">Elegir</string>
+    <string name="app_name">TravelBag</string>
     <string name="jugar">Jugar</string>
     <string name="admin">Admin</string>
-    <string name="añade_un_personaje">Añade un personaje</string>
+    <string name="add_producto">Añade un Producto</string>
     <string name="nombre">Nombre De Usuario</string>
     <string name="genero">Genero</string>
     <string name="orientacion">Orientación</string>
-    <string name="nombreImagen">Nombre de la imagen</string>
+    <string name="nombreImagen">Nombre del Producto</string>
     <string name="listo">Listo</string>
     <string name="salir">Salir</string>
     <string name="siguiente">Siguiente</string>
@@ -44,7 +44,7 @@
     <string name="error_menor">Usted es demasiado joven</string>
     <string name="error_acepto">Es necesario aceptar los terminos</string>
     <string name="guardado">Usuario Guardado Exitosamente!</string>
-    <string name="guardado2">Personaje Guardado Exitosamente!</string>
+    <string name="guardado2">Producto Guardado Exitosamente!</string>
     <string name="existir">Ya está siendo usado ese nombre de usuario</string>
     <string name="admin_pass">1234</string>
     <string name="error_usurio">El usuario no existe</string>
@@ -55,36 +55,126 @@
     <string name="mato">Lo mato</string>
     <string name="cojo">Lo cojo</string>
     <string name="list_img">Lista de Img:</string>
-    <string name="davidB">David Beckham</string>
-    <string name="emma">Emma Watson</string>
-    <string name="hugh">Hugh Jackman</string>
-    <string name="joe">Joe Manganiello</string>
-    <string name="mark">Mark Zuckerberg</string>
-    <string name="megan">Megan Fox</string>
-    <string name="rihana">Rihana</string>
-    <string name="scarlett">Scarlett Johanson</string>
-    <string name="sofia">Sofia Vergara</string>
+    <string name="accM">Mujer</string>
+    <string name="accE">Electronicos</string>
+    <string name="accH">Hombre</string>
+    <string name="accP">Playa</string>
+    <string name="accB">Buceo</string>
+    <string name="accC">Calzado</string>
+    <string name="accHi">Higiene</string>
+    <string name="accMa">Utilidad</string>
+    <string name="accS">Salud</string>
+    <string name="accR">Ropa</string>
+    <string name="play">Diez simples preguntas y tu lista de equipaje está lista!</string>
+    <string name="empacar">Comienza a Empacar</string>
+    <string name="categoria">Categoria</string>
+    <string name="accesoriosH">Accesorios de Hombre</string>
+    <string name="accesoriosM">Accesorios de Mujer</string>
+    <string name="accesoriosE">Accesorios de Electronicos</string>
+    <string name="accesoriosP">Accesorios de Playa</string>
+    <string name="higiene">Accesorios de Higiene</string>
+    <string name="ropa">Ropa</string>
+    <string name="salud"> Accesorios Médicos</string>
+    <string name="nadar">Accesorios para nadar</string>
+    <string name="utilidades">Utilidades</string>
+    <string name="calzado">Calzado</string>
     <string-array name="inicio">
         <item>@string/jugar</item>
         <item>@string/admin</item>
     </string-array>
     <string-array name="opciones_admin">
-        <item>@string/agregar_personaje</item>
+        <item>@string/add_producto</item>
         <item>@string/consultas</item>
     </string-array>
-    <string-array name="generos">
-        <item>@string/masculino</item>
-        <item>@string/femenino</item>
+    <string-array name="categorias">
+        <item>@string/accesoriosH</item>
+        <item>@string/accesoriosM</item>
+        <item>@string/accesoriosE</item>
+        <item>@string/accesoriosP</item>
+        <item>@string/higiene</item>
+        <item>@string/ropa</item>
+        <item>@string/salud</item>
+        <item>@string/nadar</item>
+        <item>@string/utilidades</item>
+        <item>@string/calzado</item>
     </string-array>
     <string-array name="lista">
-        <item>@string/davidB</item>
-        <item>@string/emma</item>
-        <item>@string/hugh</item>
-        <item>@string/joe</item>
-        <item>@string/mark</item>
-        <item>@string/megan</item>
-        <item>@string/rihana</item>
-        <item>@string/scarlett</item>
-        <item>@string/sofia</item>
+        <item>@string/accM</item>
+        <item>@string/accE</item>
+        <item>@string/accH</item>
+        <item>@string/accP</item>
+        <item>@string/accB</item>
+        <item>@string/accC</item>
+        <item>@string/accHi</item>
+        <item>@string/accMa</item>
+        <item>@string/accS</item>
+        <item>@string/accR</item>
+    </string-array>
+    <string-array name="dias">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="comienza_empacar">Comienza a empacar</string>
+    <string name="Volver" />
+    <string name="volver">Volver</string>
+    <string name="frase_inicio">Diez simples preguntas y tu lista de equipaje está lista!</string>
+    <string name="registrate_cuenta">¿no tienes una cuenta? ¡REGISTRATE!</string>
+    <string name="quienes_somos">¿Quienes somos?</string>
+    <string name="pregunta1">¿A dónde viajas?</string>
+    <string name="pregunta2">¿Dónde te quedas?</string>
+    <string name="pregunta3">¿Cuántos días?</string>
+    <string name="pregunta4">¿Cuál será el clima esperado?</string>
+    <string name="pregunta5">¿Motivo del viaje?</string>
+    <string name="pregunta6">Equipaje para:</string>
+    <string name="pregunta7">Deseas llevar:</string>
+    <string name="pregunta8">¿Planeas nadar?</string>
+    <string name="pregunta9">¿Harás deporte?</string>
+    <string name="pregunta10">Usas:</string>
+    <string name="otro_pais">A otro país</string>
+    <string name="a_otra_ciudad_en_mi_pais">A otra ciudad en mi país</string>
+    <string name="respuestas_noobligatorias">Las respuestas no son obligatorias</string>
+    <string name="donde_quedas">¿Dónde te quedas?</string>
+    <string name="hotel">Hotel</string>
+    <string name="apartamento_rentado">Apartamento rentado</string>
+    <string name="casa_amigo">Casa de un amigo</string>
+    <string name="cuantos_dias">¿Cuántos días?</string>
+    <string name="clima_esperado">¿Cúal sería el clima esperado?</string>
+    <string name="anterior">Anterior</string>
+    <string name="frio">Frío</string>
+    <string name="templado">Templado</string>
+    <string name="lluvioso">Lluvioso</string>
+    <string name="caliente">Caliente</string>
+    <string name="estudios">Estudios</string>
+    <string name="concierto_festival">Concierto/Festival</string>
+    <string name="boda_funeral">Boda/Funeral</string>
+    <string name="negocios">Negocios</string>
+    <string name="vacaciones">Vacaciones</string>
+    <string name="motivo_viaje">¿Motivo del viaje?</string>
+    <string name="equipaje_para">Equipaje para:</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="camara">Camara</string>
+    <string name="portatil">Portatil</string>
+    <string name="tableta">Tableta</string>
+    <string name="deseas_llevar">Deseas llevar:</string>
+    <string name="nadaras">¿Nadarás?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="haras_deporte">¿Harás deporte?</string>
+    <string name="usas">Usas:</string>
+    <string name="gafas">Gafas</string>
+    <string name="lentes_contacto">Lentes de contacto</string>
+    <string name="enviar">Enviar</string>
+    <string name="consulta1">Lista de Productos</string>
+    <string name="consulta2">Lista de Usuarios</string>
+    <string name="numero">N°</string>
+    <string name="logout">Salir</string>
+    <string name="inico">Volver al Inicio</string>
+    <string-array name="consultas_admin">
+        <item>@string/consulta1</item>
+        <item>@string/consulta2</item>
     </string-array>
 </resources>

@@ -5,14 +5,14 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by CUC on 22/05/2017.
+ * Created by CUC on 23/05/2017.
  */
 
-public class PersonajesSQLiteOpenHelper extends SQLiteOpenHelper {
+public class ProductosSQLiteOpenHelper extends SQLiteOpenHelper {
     public static int version=1;
-    String sql = "CREATE TABLE Personajes(foto text, nombre text, genero text)";
+    String sql = "CREATE TABLE Productos(foto text, nombre text, categoria text)";
 
-    public PersonajesSQLiteOpenHelper(Context contexto, String name, SQLiteDatabase.CursorFactory factory){
+    public ProductosSQLiteOpenHelper(Context contexto, String name, SQLiteDatabase.CursorFactory factory){
         super(contexto,name,factory,version);
     }
 
@@ -23,7 +23,7 @@ public class PersonajesSQLiteOpenHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
-        db.execSQL("DROP TABLE IF EXISTS Personajes");
+        db.execSQL("DROP TABLE IF EXISTS Productos");
         db.execSQL(sql);
     }
 }

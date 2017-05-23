@@ -4,24 +4,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ListView;
 
-public class PlayView extends AppCompatActivity {
+public class Pregunta5 extends AppCompatActivity {
     private Intent i;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_play_view);
-
+        setContentView(R.layout.activity_pregunta5);
     }
 
-    public void comienzaEmpacar(View v){
-        i=new Intent(PlayView.this, Pregunta1.class);
+    public void aPregunta6(View v){
+        i=new Intent(Pregunta5.this, Pregunta6.class);
         startActivity(i);
     }
-
-    public void volverPrincipal(View v){
-        i = new Intent(PlayView.this, Principal.class);
+    public void aPregunta4(View v){
+        i = new Intent(Pregunta5.this, Pregunta4.class);
         startActivity(i);
     }
 }

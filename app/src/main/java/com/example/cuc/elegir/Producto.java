@@ -4,18 +4,18 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
 /**
- * Created by CUC on 22/05/2017.
+ * Created by CUC on 23/05/2017.
  */
 
-public class Personaje {
+public class Producto {
     private String foto;
     private String nombre;
-    private String genero;
+    private String categoria;
 
-    public Personaje(String foto, String nombre, String genero) {
+    public Producto(String foto, String nombre, String categoria) {
         this.foto = foto;
         this.nombre = nombre;
-        this.genero = genero;
+        this.categoria = categoria;
     }
 
     public String getFoto() {
@@ -34,22 +34,22 @@ public class Personaje {
         this.nombre = nombre;
     }
 
-    public String getGenero() {
-        return genero;
+    public String getCategoria() {
+        return categoria;
     }
 
-    public void setGenero(String genero) {
-        this.genero = genero;
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
 
     public void guardar(Context contexto){
         SQLiteDatabase db;
         String sql;
 
-        PersonajesSQLiteOpenHelper aux = new PersonajesSQLiteOpenHelper(contexto,"DBPersonajes",null);
+        ProductosSQLiteOpenHelper aux = new ProductosSQLiteOpenHelper(contexto,"DBProductos",null);
         db = aux.getWritableDatabase();
 
-        sql="INSERT INTO Personajes VALUES('"+this.getFoto()+"','"+this.getNombre()+"','"+this.getGenero()+"')";
+        sql="INSERT INTO Productos VALUES('"+this.getFoto()+"','"+this.getNombre()+"','"+this.getCategoria()+"')";
         db.execSQL(sql);
 
         db.close();

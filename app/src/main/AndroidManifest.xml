@@ -20,7 +20,20 @@
         <activity android:name=".admin" />
         <activity android:name=".PlayView" />
         <activity android:name=".Consultas" />
-        <activity android:name=".AgregarPersonaje" />
+        <activity android:name=".Pregunta1" />
+        <activity android:name=".Pregunta2" />
+        <activity android:name=".Pregunta3" />
+        <activity android:name=".Pregunta4" />
+        <activity android:name=".Pregunta5" />
+        <activity android:name=".Pregunta6" />
+        <activity android:name=".Pregunta7" />
+        <activity android:name=".Pregunta8" />
+        <activity android:name=".Pregunta9" />
+        <activity android:name=".Pregunta10" />
+        <activity android:name=".ListaResultado" />
+        <activity android:name=".AgregarProducto" />
+        <activity android:name=".ListadoProductos" />
+        <activity android:name=".ListadoUsuario"></activity>
     </application>
 
 </manifest>

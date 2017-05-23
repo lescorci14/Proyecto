@@ -57,14 +57,6 @@ public class Principal extends AppCompatActivity {
         }
     }
 
-    public void registrar(View v){
-        i = new Intent(Principal.this, RegistrarUsuario.class);
-        startActivity(i);
-    }
-    public void sobreNosotros(View v){
-        i = new Intent(Principal.this, Nosotros.class);
-        startActivity(i);
-    }
 
     public boolean camposVacios(){
         if(cajaUsuario.getText().toString().isEmpty()){
@@ -86,5 +78,14 @@ public class Principal extends AppCompatActivity {
         cajaUsuario.setText("");
         cajaContra.setText("");
         cajaUsuario.requestFocus();
+    }
+
+    public void registrar(View v){
+        i = new Intent(Principal.this, RegistrarUsuario.class);
+        startActivity(i);
+    }
+    public void sobreNosotros(View v){
+        i = new Intent(Principal.this, Nosotros.class);
+        startActivity(i);
     }
 }

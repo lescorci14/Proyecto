@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.cuc.elegir.Principal">
+    tools:context="com.example.cuc.elegir.Principal"
+    android:background="@drawable/z">
 
     <TextView
         android:text="@string/iniciar_sesion"
@@ -49,8 +50,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="entrar"
-        android:textColor="@android:color/background_light"
-        android:background="@android:color/black" />
+        android:textColor="@android:color/background_dark"
+        android:background="?attr/colorAccent" />
 
     <TextView
         android:text="@string/registrate"
@@ -75,7 +76,8 @@
         android:layout_marginBottom="68dp"
         android:layout_above="@+id/btnEntrar"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:fontFamily="sans-serif" />
 
     <EditText
         android:layout_width="match_parent"

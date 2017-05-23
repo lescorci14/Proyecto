@@ -8,14 +8,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.cuc.elegir.Principal">
+    tools:context="com.example.cuc.elegir.Principal"
+    android:background="@drawable/z">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
-            android:text="@string/añade_un_personaje"
+            android:text="@string/add_producto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView3"
@@ -25,12 +27,13 @@
             android:gravity="top|bottom"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="17dp" />
+            android:layout_marginTop="17dp"
+            android:textColor="@android:color/background_dark" />
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/cmbGenero"
+            android:id="@+id/cmbCategoria"
             android:layout_below="@+id/textView2"
             android:layout_alignParentStart="true" />
 
@@ -39,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView11"
-            android:layout_below="@+id/cmbGenero"
+            android:layout_below="@+id/cmbCategoria"
             android:layout_alignParentStart="true"
             android:textSize="18sp" />
 
@@ -51,7 +54,7 @@
             android:layout_alignParentStart="true" />
 
         <TextView
-            android:text="@string/genero"
+            android:text="@string/categoria"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"

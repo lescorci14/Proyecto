@@ -28,7 +28,7 @@ public class admin extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 switch (position){
                     case 0:
-                        i = new Intent(admin.this, AgregarPersonaje.class);
+                        i = new Intent(admin.this, AgregarProducto.class);
                         startActivity(i);
                         break;
                     case 1:
@@ -38,5 +38,10 @@ public class admin extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void salirAdmin(View v){
+        i = new Intent(admin.this, Principal.class);
+        startActivity(i);
     }
 }

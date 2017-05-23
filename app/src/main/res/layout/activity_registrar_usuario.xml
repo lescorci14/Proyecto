@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.cuc.elegir.Principal">
+    tools:context="com.example.cuc.elegir.Principal"
+    android:background="@drawable/z">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,7 +31,8 @@
                 android:gravity="center"
                 android:textSize="28sp"
                 android:layout_marginBottom="20dp"
-                android:textStyle="normal|bold" />
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/background_dark" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -117,7 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/txtTerminosYCondiciones"
-                android:textColor="@color/colorPrimary"
+                android:textColor="?attr/colorAccent"
                 android:gravity="center_vertical"
                 android:textSize="16sp"
                 android:textAlignment="textEnd"
@@ -140,24 +142,13 @@
 
                 <Button
                     android:text="@string/registrar"
-                    android:layout_width="221dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/btnRegistrarUsuario"
                     android:textSize="20sp"
                     android:layout_marginTop="2sp"
                     android:layout_marginRight="4sp"
                     android:onClick="guardar"
-                    android:textColor="@android:color/background_light"
-                    android:background="@android:color/black" />
-
-                <Button
-                    android:text="@string/limpiar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/btnLimpiarUsuario"
-                    android:layout_weight="1"
-                    android:textSize="20sp"
-                    android:layout_marginTop="2sp"
                     android:textColor="@android:color/background_light"
                     android:background="@android:color/black" />
 
