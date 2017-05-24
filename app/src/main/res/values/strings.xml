@@ -35,7 +35,7 @@
     <string name="tipo">Tipo</string>
     <string name="confirmar_contraseña">Confirmar Contraseña</string>
     <string name="error_name">Digite su Nombre de Usuario</string>
-    <string name="error_img">Digite el nombre de la imagen</string>
+    <string name="error_img">Digite el nombre</string>
     <string name="error_contra">Digite su Contraseña</string>
     <string name="error_confirmar">Por favor! Confirme su Contraseña</string>
     <string name="error_coincidir">Su Contraseña no coincide</string>
@@ -118,7 +118,7 @@
         <item>5</item>
     </string-array>
     <string name="comienza_empacar">Comienza a empacar</string>
-    <string name="Volver" />
+    <string name="Volver" >Volver</string>
     <string name="volver">Volver</string>
     <string name="frase_inicio">Diez simples preguntas y tu lista de equipaje está lista!</string>
     <string name="registrate_cuenta">¿no tienes una cuenta? ¡REGISTRATE!</string>
