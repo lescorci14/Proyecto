@@ -26,7 +26,7 @@
     <string name="anterior">Get back</string>
     <string name="boda_funeral">Wedding/Funneral</string>
     <string name="borrar">Delete</string>
-    <string name="bryan"></string>
+    <string name="bryan">Bryan Cuadrado</string>
     <string name="buscar">Search</string>
     <string name="buscar_id">Search by id</string>
     <string name="caliente">Hot</string>
@@ -86,7 +86,7 @@
     <string name="listo">Ready</string>
     <string name="lluvioso">Raining</string>
     <string name="logout">Sing out</string>
-    <string name="lorem"></string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis purus urna. Pellentesque a convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc in tellus non metus aliquam aliquet eget nec turpis. Maecenas aliquet volutpat euismod. Cras in ex ac erat sodales porta. Nulla facilisi. Ut venenatis at diam et iaculis.</string>
     <string name="masculino">Male</string>
     <string name="menu">Menu</string>
     <string name="motivo_viaje">What your travel is for?</string>
@@ -132,4 +132,5 @@
     <string name="utilidades">Utilities</string>
     <string name="vacaciones">Vacations</string>
     <string name="volver">Get back</string>
+    <string name="leiner">Leiner Escorcia</string>
 </resources>
